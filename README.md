@@ -1,4 +1,9 @@
 # Mataf
+## Contact me
+Kobi Hari
+mail: hari@applicolors.com
+and also - through `Whatsapp`
+
 ## Day 1 - Typescript and introduction to Angular
 On the first day we have gone over the following topics:
 * Javascript types and gotchas
@@ -28,4 +33,29 @@ On the first day we have gone over the following topics:
 * Cross Types
 * the `type` alias
 
+### How to use Node, Npm, and Tsc
+* We have installed NodeJS from the website and run javascript files using node
+* Npm was also installed and we used it to install the typescript compiler globally
+* We have created ts project and compiled it with TSC and run it with Node
+* Finally, we have configured tsconfig.json so we can continuesly compile our project in the background
 
+### Introduction to angular
+* We used npm to intall the angular CLI
+* We used the cli to generate a new angular project using `ng new`
+* we have run the application using `ng server` and viewed the application in the browser
+* We went over the project structure and files, including `main.ts`, `index.html` and `styles.css`
+* We have inspected the App Module and App Component and understood that
+    * Angular applications are divided into Modules
+    * A plain class turns into an Angular module using the `@NgModule` Decorator
+    * Angular Modules contain components (amongst other things)
+    * A plain class turns into an Angular Component using the `@Component` Decorator
+* The anuglar engine inspects the DOM, and applies it's magic on elements it recognizes as components
+    * Inject the template into the DOM node
+    * Instantiate the component class
+    * Bind the html to the component instance members
+    
+### Next week, we will...
+1. Dive deep into Angular Binding
+2. Build some awesome applications
+3. Dive deep into Angular Components
+4. Do some cool CSS layouts
