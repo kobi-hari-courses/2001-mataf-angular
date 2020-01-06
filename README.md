@@ -5,6 +5,10 @@ mail: hari@applicolors.com
 and also - through `Whatsapp`
 
 ## Day 1 - Typescript and introduction to Angular
+### Projects:
+| --- | --- |
+| [hello-avascript](https://github.com/kobi2294/Mataf/tree/master/hello-javascript) | Introduction to some javascript gotchas | 
+
 
 ### Javascript types and gotchas
 * We have Convered the 7 types of javascript: boolean, number, string, object, function, null and undefined
