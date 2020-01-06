@@ -8,7 +8,7 @@ and also - through `Whatsapp`
 ### Projects:
 |     |     |
 | --- | --- |
-| [hello-avascript](https://github.com/kobi2294/Mataf/tree/master/hello-javascript) | Introduction to some javascript gotchas | 
+| [hello-javascript](https://github.com/kobi2294/Mataf/tree/master/hello-javascript) | Introduction to some javascript gotchas | 
 | [hello-nodejs](https://github.com/kobi2294/Mataf/tree/master/hello-nodejs) | Introduction to working with node js |
 | [hello-ts](https://github.com/kobi2294/Mataf/tree/master/hello-ts) | An introduction to typescript projects and tsconfig |
 | [hello-angular](https://github.com/kobi2294/Mataf/tree/master/hello-angular) | A bare-bones angular application |
