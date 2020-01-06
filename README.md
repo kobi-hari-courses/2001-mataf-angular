@@ -5,11 +5,6 @@ mail: hari@applicolors.com
 and also - through `Whatsapp`
 
 ## Day 1 - Typescript and introduction to Angular
-On the first day we have gone over the following topics:
-* Javascript types and gotchas
-* Typescript introduction
-* How to use Node, Npm, and Tsc
-* Introcution to Angular
 
 ### Javascript types and gotchas
 * We have Convered the 7 types of javascript: boolean, number, string, object, function, null and undefined
