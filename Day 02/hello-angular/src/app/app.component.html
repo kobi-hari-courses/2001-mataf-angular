@@ -1,0 +1,8 @@
+<input #inp (input)="setKeyword(inp.value)" type="search" [disabled]="isBusy">
+<button [disabled]="isBusy" (click)="search()">Search</button>
+<img 
+    *ngIf="isBusy"
+    src="https://i.stack.imgur.com/8puiO.gif">
+<ul>
+    <li *ngFor="let res of results">{{res}}</li>
+</ul>
