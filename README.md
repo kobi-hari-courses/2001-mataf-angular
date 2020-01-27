@@ -6,7 +6,7 @@ and also - through `Whatsapp`
 
 # Daily Summaries
 * [Day 1 - Typescript and introduction to Angular](https://github.com/kobi2294/Mataf/wiki/Day-1---Typescript-and-introduction-to-Angular)
-* [Day 2 - Day 2 - Components](https://github.com/kobi2294/Mataf/wiki/Day-2---Components)
+* [Day 2 - Components](https://github.com/kobi2294/Mataf/wiki/Day-2---Components)
 
 # Class Exercises
 * [Exercise 1 - Pup Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
