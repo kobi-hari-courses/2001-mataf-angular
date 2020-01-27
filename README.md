@@ -64,6 +64,15 @@ and also - through `Whatsapp`
 4. Do some cool CSS layouts
 
 ## Day 2 - Components
+### Projects:
+|     |     |
+| --- | --- |
+| [hello-angular](https://github.com/kobi2294/Mataf/tree/master/Day%2002/hello-angular) | Creating search page using  angular binding | 
+| [notepad](https://github.com/kobi2294/Mataf/tree/master/Day%2002/notepad) | Demonstrating selection, and components input and output |
+| [pop-quiz-ex1](https://github.com/kobi2294/Mataf/tree/master/Day%2002/pop-quiz-ex1) | The solution to the class exercise practicing components |
+| [fun-with-components](https://github.com/kobi2294/Mataf/tree/master/Day%2002/fun-with-components) | Using ng-content in components |
+
+
 ### Introduction to angular binding
 * We created the [Hello Angular app](https://github.com/kobi2294/Mataf/tree/master/Day%2002/hello-angular).
 * We have seen how to "think MVVM" - describing the logic of our application in the view model and then writing the view and binding it to the view model.
