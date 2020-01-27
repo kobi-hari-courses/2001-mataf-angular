@@ -122,3 +122,10 @@ and also - through `Whatsapp`
 * [The Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
 
 Good Luck :-)
+
+### Next week, we will
+* Learn about angular Dependency Injection
+* Learn how to build services
+* Learn how to develop asynchronous code in JS using Promises
+* Get introduced to RxJS (!!!) - probably the most important part of the course
+
