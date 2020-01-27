@@ -64,6 +64,13 @@ and also - through `Whatsapp`
 4. Do some cool CSS layouts
 
 ## Day 2 - Components
+### Introduction to angular binding
+* We created the [Hello Angular app](https://github.com/kobi2294/Mataf/tree/master/Day%2002/hello-angular).
+* We have seen how to "think MVVM" - describing the logic of our application in the view model and then writing the view and binding it to the view model.
+* We have created a search application view model the performs search of a keyword
+* We have seen `*ngIf` and `*ngFor` and understood what are structural directives and how they work
+* We have used the `[disabled]` directive to disable the search box and button when the search is in progress
+
 ### Introduction to Grid Layout
 * We have seen the Grid layout, and how to use it to create modren responsive UI layout
 * We have seen how to declare grid lines using `grid-template-rows` and `grid-template-columns` on the container
