@@ -62,3 +62,30 @@ and also - through `Whatsapp`
 2. Build some awesome applications
 3. Dive deep into Angular Components
 4. Do some cool CSS layouts
+
+## Day 2 - Components
+### Introduction to angular binding
+* We created the [Hello Angular app](https://github.com/kobi2294/Mataf/tree/master/Day%2002/hello-angular).
+* We have seen how to "think MVVM" - describing the logic of our application in the view model and then writing the view and binding it to the view model.
+* We have created a search application view model the performs search of a keyword
+* We have seen `*ngIf` and `*ngFor` and understood what are structural directives and how they work
+* We have used the `[disabled]` directive to disable the search box and button when the search is in progress
+
+### Introduction to Grid Layout
+* We have seen the Grid layout, and how to use it to create modren responsive UI layout
+* We have seen how to declare grid lines using `grid-template-rows` and `grid-template-columns` on the container
+* We have seen how to place grid children on a specific row or columns using `grid-row` and `grid-column` properties
+* for more information, see the [complete guide to grid on CSS TRICKS](https://css-tricks.com/snippets/css/complete-guide-grid/): 
+
+### The notepad app
+* We have created a responsive layout using css grid
+* We have created a view model holding the lists of colors, fonts and sizes and the selected item in each array
+* We have added actions that modify the selected color, font and size
+* We have created a list of items in the HTML, and allowed to select color, size and font
+* We have used fancy CSS to decorate it and make the app look nice
+* We have learned about [class.XXX] and [style.XXX] directives
+* See the project in [The Notepad app](https://github.com/kobi2294/Mataf/tree/master/Day%2002/notepad)
+
+### Exercise 1 - Pop Quiz
+* See the details of the exercise here: [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
+* See the solution here: [pop-quiz]()
