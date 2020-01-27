@@ -1,26 +1,32 @@
+<section class="title-area">
+    <app-title-presenter caption="Hello World, mamatsav"
+        color="red"
+    >
+    </app-title-presenter>
+    <app-title-presenter [caption]="myTitle" color="green">
+    </app-title-presenter>
+</section>
+
 <section class="colors-area">
-    <ul>
-        <li *ngFor="let item of colors"
-            (click)="setColor(item)"
-            [class.chosen]="item===selectedColor"
-        >{{item}}</li>
-    </ul>
+    <app-string-selector
+        [options]="colors"
+        [selected]="selectedColor"
+        (selectionRequested)="setColor($event)"
+    ></app-string-selector>
 </section>
 <section class="sizes-area">
-    <ul>
-        <li *ngFor="let item of sizes"
-            (click)="setSize(item)"
-            [class.chosen]="item===selectedSize"
-        >{{item}}</li>
-    </ul>
+    <app-string-selector
+        [options]="sizes"
+        [selected]="selectedSize"
+        (selectionRequested)="setSize($event)"
+    ></app-string-selector>
 </section>
 <section class="fonts-area">
-    <ul>
-        <li *ngFor="let item of fonts"
-            (click)="setFont(item)"
-            [class.chosen]="item===selectedFont"
-        >{{item}}</li>
-    </ul>
+    <app-string-selector
+        [options]="fonts"
+        [selected]="selectedFont"
+        (selectionRequested)="setFont($event)"
+    ></app-string-selector>
 </section>
 <section class="text-area">
     <textarea

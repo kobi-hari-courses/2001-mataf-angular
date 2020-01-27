@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  myTitle: string = 'My Fancy title';
+
   // data
   colors: string[] = ['red', 'green', 'blue', 'purple', 'cyan', 'black', 'brown'];
   sizes: string[] = ['12px', '18px', '27px', '36px', '72px', '100px'];
