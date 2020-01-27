@@ -62,3 +62,10 @@ and also - through `Whatsapp`
 2. Build some awesome applications
 3. Dive deep into Angular Components
 4. Do some cool CSS layouts
+
+## Day 2 - Components
+### Introduction to Grid Layout
+* We have seen the Grid layout, and how to use it to create modren responsive UI layout
+* We have seen how to declare grid lines using `grid-template-rows` and `grid-template-columns` on the container
+* We have seen how to place grid children on a specific row or columns using `grid-row` and `grid-column` properties
+* for more information, see the [complete guide to grid on CSS TRICKS](https://css-tricks.com/snippets/css/complete-guide-grid/): 
