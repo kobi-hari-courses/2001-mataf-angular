@@ -85,3 +85,7 @@ and also - through `Whatsapp`
 * We have used fancy CSS to decorate it and make the app look nice
 * We have learned about [class.XXX] and [style.XXX] directives
 * See the project in [The Notepad app](https://github.com/kobi2294/Mataf/tree/master/Day%2002/notepad)
+
+### Exercise 1 - Pop Quiz
+* See the details of the exercise here: [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
+* See the solution here: [pop-quiz]()
