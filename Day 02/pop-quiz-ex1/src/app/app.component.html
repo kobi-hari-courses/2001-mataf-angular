@@ -1,0 +1,16 @@
+<section class="question-area">
+    <h1>{{question}}</h1>
+</section>
+<section class="answers-area">
+    <ul>
+        <li *ngFor="let answer of answers; let i = index"
+            (click)="selectAnswer(i)"
+            [class.active]="!isAnswered"
+            [class.not-active]="isAnswered"
+            [class.correct]="i === correctAnswerIndex"
+            [class.wrong]="i!==correctAnswerIndex"
+            [class.selected]="i===selectedAnswerIndex"
+            [class.not-selected]="i!==selectedAnswerIndex"
+        >{{answer}}</li>
+    </ul>
+</section>
