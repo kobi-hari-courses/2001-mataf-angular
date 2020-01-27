@@ -1,0 +1,33 @@
+<section class="colors-area">
+    <ul>
+        <li *ngFor="let item of colors"
+            (click)="setColor(item)"
+            [class.chosen]="item===selectedColor"
+        >{{item}}</li>
+    </ul>
+</section>
+<section class="sizes-area">
+    <ul>
+        <li *ngFor="let item of sizes"
+            (click)="setSize(item)"
+            [class.chosen]="item===selectedSize"
+        >{{item}}</li>
+    </ul>
+</section>
+<section class="fonts-area">
+    <ul>
+        <li *ngFor="let item of fonts"
+            (click)="setFont(item)"
+            [class.chosen]="item===selectedFont"
+        >{{item}}</li>
+    </ul>
+</section>
+<section class="text-area">
+    <textarea
+        [style.color]="selectedColor"
+        [style.font-size]="selectedSize"
+        [style.font-family]="selectedFont"
+    ></textarea
+
+        >
+</section>
