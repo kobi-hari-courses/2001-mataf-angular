@@ -88,4 +88,28 @@ and also - through `Whatsapp`
 
 ### Exercise 1 - Pop Quiz
 * See the details of the exercise here: [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
-* See the solution here: [pop-quiz]()
+* See the solution here: [pop-quiz](https://github.com/kobi2294/Mataf/tree/master/Day%2002/pop-quiz-ex1)
+
+### Componantization of the notepad component
+* We agreed that writing full scale applications in one component is difficult to maintain, which is why angular was built to support multi-component applications
+* We created a `title-presneter` component that presents a title
+* We have used the `@Input` Decorator to add input properties that may be passed through the HTML
+* We saw the difference between passing data using `[prop]="expression"` syntax and `prop="text"` syntax. Where the first is used to bind data from the view model, and the second is used to pass a hard coded string.
+* We used the cli to auto-generate components using `ng g c components/component-name`. See more details [Here](https://angular.io/cli/generate#component)
+* We used the `@Output` Directive and the `EventMitter<T>` class to create our own events and raise them in our components
+* We used the `(event)="action()"` Syntax to respond to an event in the container component
+* We used the `$event` keyword to access event data
+
+### Using ng-content in our components
+* We created the [Fun With Components](https://github.com/kobi2294/Mataf/tree/master/Day%2002/fun-with-components) project. 
+* We have created an expander component that displays a header and a content, and allows to toggle the content visibility.
+* We used `<ng-content>` to inject the content into the template
+* We used `<ng-content select="selector">` syntax to inject specific parts of the content into our template
+* We used the `<ng-content select="[attribute]">` syntax to select content parts by attribute
+
+### Homework
+* Attached is a presentation and a video that present an exercise and its solution
+* [The presentation](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
+* [The Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
+
+Good Luck :-)
