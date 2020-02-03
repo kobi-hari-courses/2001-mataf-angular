@@ -1,4 +1,5 @@
-import { Component, wtfStartTimeRange } from '@angular/core';
+import { RandomizerService } from './services/randomizer.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,9 @@ import { Component, wtfStartTimeRange } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  constructor(private randomizer: RandomizerService){}
+
+
   createDelay(): Promise<number> {
     return new Promise<number>((resolve) => {
       console.log('Promise created');
@@ -16,9 +20,14 @@ export class AppComponent {
   async go() {
     console.log('A');
 
-    let res =await this.start();
+    await this.start2();
 
     console.log('B');
+  }
+
+  async start2() {
+    let r = await this.randomizer.nextMany(1, 100, 20);
+    console.log(r);
   }
 
   async start() {
