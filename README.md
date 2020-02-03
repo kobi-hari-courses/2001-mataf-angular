@@ -7,9 +7,11 @@ and also - through `Whatsapp`
 # Daily Summaries
 * [Day 1 - Typescript and introduction to Angular](https://github.com/kobi2294/Mataf/wiki/Day-1---Typescript-and-introduction-to-Angular)
 * [Day 2 - Components](https://github.com/kobi2294/Mataf/wiki/Day-2---Components)
+* [Day 3 - Services, DI and Async Development](https://github.com/kobi2294/Mataf/wiki/Day-3---Services)
 
 # Class Exercises
 * [Exercise 1 - Pup Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
+* [Exercise 2 - Movie Browser](https://github.com/kobi2294/Mataf/wiki/Exercise-2---Movies-Browser)
 
 # Home Exercises
 * [Exercise 1 - Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
