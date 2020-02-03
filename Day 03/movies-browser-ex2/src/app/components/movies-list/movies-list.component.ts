@@ -1,3 +1,4 @@
+import { DataService } from './../../services/data.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movies-list.component.css']
 })
 export class MoviesListComponent implements OnInit {
+  captions: string[] = [];
+  isBusy: boolean = false;
 
-  constructor() { }
+  constructor(private data: DataService) { }
 
-  ngOnInit() {
+  async ngOnInit() {
+    this.isBusy = true;
+    this.captions = await this.data.getAllCaptions();
+    this.isBusy = false;
   }
 
 }

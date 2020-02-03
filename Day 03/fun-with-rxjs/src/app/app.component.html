@@ -1,0 +1,9 @@
+<button (click)="go()">GO!</button>
+
+<hr>
+<button (click)="toggleReader()">Toggle Reader</button>
+
+<hr>
+<app-counter-reader *ngIf="isShowingReader"></app-counter-reader>
+<hr>
+<app-counter-editor></app-counter-editor>
