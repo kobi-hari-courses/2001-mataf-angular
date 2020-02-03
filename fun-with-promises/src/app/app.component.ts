@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, wtfStartTimeRange } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -14,38 +14,21 @@ export class AppComponent {
   }
 
   async go() {
+    console.log('A');
+
+    let res =await this.start();
+
+    console.log('B');
+  }
+
+  async start() {
+    console.log('1');
     let p = this.createDelay();
-
-    try {
-      let res = await p;
-
-      console.log('The result is ' + res);
-      let p2 = this.createDelay();
-  
-      await p2;
-      console.log('Yalla Bye');  
-    }
-    catch (err) {
-
-    }
-    finally {
-
-    }
-
+    console.log('2');
+    let res = await p;
+    console.log('3');
 
     return true;
-
-
-    // let p2 = p.then(res => {
-    //   console.log('Promise is completed, result is: ' + res);
-    //   let p3 = this.createDelay();
-    //   p3.then(r => {
-    //     console.log('Completed second promise');
-    //   });
-
-    //   console.log('bla bla bla');
-    //   return 'Hello';      
-    // });
   }
 
 }
