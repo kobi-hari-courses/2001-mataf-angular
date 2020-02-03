@@ -9,6 +9,10 @@ and also - through `Whatsapp`
 * [Day 2 - Components](https://github.com/kobi2294/Mataf/wiki/Day-2---Components)
 * [Day 3 - Services, DI and Async Development](https://github.com/kobi2294/Mataf/wiki/Day-3---Services)
 
+# Emphasize Videos
+These Videos repeat several chapters of the course, you can use them to reinforce you understanding of the topics
+* [Day 3 - Introduction to Observables, Subjects and reactive services](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
+
 # Class Exercises
 * [Exercise 1 - Pup Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
 * [Exercise 2 - Movie Browser](https://github.com/kobi2294/Mataf/wiki/Exercise-2---Movies-Browser)
