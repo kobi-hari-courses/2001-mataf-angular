@@ -1,0 +1,30 @@
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.area {
+    display: grid;
+}
+
+.title-area {
+    background: mediumslateblue;
+    color: white;
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.list-area {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.details-area {
+    grid-column: 2;
+    grid-row: 2;
+}
