@@ -15,7 +15,7 @@ These Videos repeat several chapters of the course, you can use them to reinforc
 * [Day 3 - Introduction to Observables, Subjects and reactive services](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
 
 # Class Exercises
-* [Exercise 1 - Pup Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
+* [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
 * [Exercise 2 - Movie Browser](https://github.com/kobi2294/Mataf/wiki/Exercise-2---Movies-Browser)
 * [Exercise 3 - Reactive Movie Browser](https://github.com/kobi2294/Mataf/wiki/Exercise-3---Movies-Browser---Reactive)
 
