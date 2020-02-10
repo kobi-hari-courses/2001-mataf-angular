@@ -8,7 +8,7 @@ and also - through `Whatsapp`
 * [Day 1 - Typescript and introduction to Angular](https://github.com/kobi2294/Mataf/wiki/Day-1---Typescript-and-introduction-to-Angular)
 * [Day 2 - Components](https://github.com/kobi2294/Mataf/wiki/Day-2---Components)
 * [Day 3 - Services, DI and Async Development](https://github.com/kobi2294/Mataf/wiki/Day-3---Services)
-* [Day 4 - Day 4 - Reactive X, Operators, and Http](https://github.com/kobi2294/Mataf/wiki/Day-4---Reactive-X-and-Http)
+* [Day 4 - Reactive X, Operators, and Http](https://github.com/kobi2294/Mataf/wiki/Day-4---Reactive-X-and-Http)
 
 # Emphasize Videos
 These Videos repeat several chapters of the course, you can use them to reinforce you understanding of the topics
