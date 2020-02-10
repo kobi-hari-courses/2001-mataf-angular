@@ -22,5 +22,4 @@ These Videos repeat several chapters of the course, you can use them to reinforc
 # Home Exercises
 * [Exercise 1 - Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
 * [Exercise 1 - Video Solution](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
-* [Exercise 2 - Description](https://www.dropbox.com/s/h4rbkiz9zxa7461/Description.pptx?dl=0)
 * [Exercise 2 - Video Solution](https://www.dropbox.com/s/n9502wwpvlmrgbr/reactive%20pop%20quiz%20solution.mp4?dl=0)
