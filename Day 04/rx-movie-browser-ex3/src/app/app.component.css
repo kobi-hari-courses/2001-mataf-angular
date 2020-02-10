@@ -1,0 +1,39 @@
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 2fr;
+    background: var(--p50);
+}
+
+.area {
+    display: grid;
+}
+
+.title-area {
+    background: var(--p500);
+    color: white;
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 24px;    
+}
+
+.list-area {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.details-area {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.material-icons {
+    font-size: 36px;
+    width: auto;
+    height: auto;
+    padding: 6px;
+}

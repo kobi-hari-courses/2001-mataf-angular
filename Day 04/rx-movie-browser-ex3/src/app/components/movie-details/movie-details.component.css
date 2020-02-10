@@ -1,0 +1,35 @@
+:host {
+    margin: 10px;
+    border: 1px solid var(--a100);
+    padding: 4px;
+    display: grid;
+}
+
+div {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 200px 1fr;
+}
+
+img {
+    grid-column: 1;
+    grid-row: 2;
+    max-height: 300px;
+    max-width: 100%;
+    border: 1px solid var(--p700);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    color: var(--p500);
+}
+
+p {
+    color: var(--a700);
+    grid-row: 2;
+    grid-column: 2;
+    margin: 4px;
+}

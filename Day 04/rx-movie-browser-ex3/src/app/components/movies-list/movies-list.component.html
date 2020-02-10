@@ -1,0 +1,6 @@
+<div *ngFor="let caption of captions"
+    (click)="setSelected(caption)"
+    [class.chosen]="caption === (selectedCaption$|async)"
+>
+    {{caption}}
+</div>

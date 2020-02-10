@@ -1,0 +1,15 @@
+div {
+    border: 1px solid var(--p200);
+    margin: 6px;
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+div:hover {
+    background: var(--p100);
+}
+
+div.chosen {
+    background: var(--a200);
+}

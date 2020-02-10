@@ -1,0 +1,5 @@
+<div *ngIf="(movie$ | async) as movie">
+    <h1>{{movie.caption}}</h1>
+    <img [src]="movie.poster">
+    <p>{{movie.description}}</p>
+</div>
