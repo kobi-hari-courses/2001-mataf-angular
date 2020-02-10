@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pure-reactive-app';
+  isShowingPresenter = true;
+
+  toggle() {
+    this.isShowingPresenter = !this.isShowingPresenter;
+  }
 }
