@@ -1,14 +1,16 @@
 import { CounterService } from './../../services/counter.service';
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Component, OnInit, OnDestroy, ChangeDetectionStrategy } from '@angular/core';
+import { Subscription, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-counter-presenter',
   templateUrl: './counter-presenter.component.html',
-  styleUrls: ['./counter-presenter.component.css']
+  styleUrls: ['./counter-presenter.component.css'], 
+  changeDetection: ChangeDetectionStrategy.OnPush
+
 })
-export class CounterPresenterComponent implements OnInit, OnDestroy {
-  value: number;
+export class CounterPresenterComponent implements OnInit {
+  value$: Observable<number>;
   sub: Subscription;
 
 
@@ -17,13 +19,6 @@ export class CounterPresenterComponent implements OnInit, OnDestroy {
   ) { }
 
   ngOnInit() {
-    this.sub = this.counterService.getValue().subscribe(val => {
-      this.value = val;
-    })
+    this.value$ = this.counterService.getValue();
   }
-
-  ngOnDestroy(): void {
-    this.sub.unsubscribe();
-  }
-
 }
