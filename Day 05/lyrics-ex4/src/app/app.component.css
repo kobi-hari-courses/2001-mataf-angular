@@ -1,0 +1,32 @@
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    position: relative;
+}
+
+.main {
+    margin: 10px;
+}
+
+nav {
+    background-color: var(--p100);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    opacity: 0.9;
+}
+
+nav div {
+    padding: 6px;
+}
+
+nav .active-link {
+    background-color: var(--p300);
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}

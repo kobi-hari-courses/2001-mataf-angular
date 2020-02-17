@@ -1,0 +1,6 @@
+<h1>{{title$ | async}}</h1>
+<ul>
+<li *ngFor="let song of (songs$ | async)"
+    (click)="selectSong(song)"
+>{{song}}</li>
+</ul>

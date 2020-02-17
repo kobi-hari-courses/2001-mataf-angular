@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+:root {
+	--p50: #e8f5e9;
+	--p100: #c8e6c9;
+	--p200: #a5d6a7;
+	--p300: #81c784;
+	--p400: #66bb6a;
+	--p500: #4caf50;
+	--p600: #43a047;
+	--p700: #388e3c;
+	--p800: #2e7d32;
+    --p900: #1b5e20;
+}
