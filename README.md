@@ -9,6 +9,7 @@ and also - through `Whatsapp`
 * [Day 2 - Components](https://github.com/kobi2294/Mataf/wiki/Day-2---Components)
 * [Day 3 - Services, DI and Async Development](https://github.com/kobi2294/Mataf/wiki/Day-3---Services)
 * [Day 4 - Reactive X, Operators, and Http](https://github.com/kobi2294/Mataf/wiki/Day-4---Reactive-X-and-Http)
+* [Day 5 - Routing](https://github.com/kobi2294/Course-012020-Mataf-Angular/wiki/Day-5-Routing)
 
 # Emphasize Videos
 These Videos repeat several chapters of the course, you can use them to reinforce you understanding of the topics
@@ -18,6 +19,7 @@ These Videos repeat several chapters of the course, you can use them to reinforc
 * [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Mataf/wiki/Exercise-1---Pop-Quiz)
 * [Exercise 2 - Movie Browser](https://github.com/kobi2294/Mataf/wiki/Exercise-2---Movies-Browser)
 * [Exercise 3 - Reactive Movie Browser](https://github.com/kobi2294/Mataf/wiki/Exercise-3---Movies-Browser---Reactive)
+* [Exercise 4 - Lyrics Browser using Routing](https://github.com/kobi2294/Course-012020-Mataf-Angular/wiki/Exercise-4-Routing)
 
 # Home Exercises
 * [Exercise 1 - Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
