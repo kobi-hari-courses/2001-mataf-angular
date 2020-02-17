@@ -1,0 +1,32 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background: lightskyblue;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    list-style: none;
+    background: lightskyblue;
+    padding: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li.po {
+    background: rgb(38, 77, 102);
+}
+
+nav li.po a {
+    color: white;
+}
