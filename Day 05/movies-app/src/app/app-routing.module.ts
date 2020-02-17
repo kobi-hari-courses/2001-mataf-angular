@@ -15,7 +15,8 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent}, 
   {path: 'movies', component: MoviesListComponent}, 
   {path: 'movies/:ord', component: MovieDetailsComponent}, 
-  {path: 'movies/:ord/edit', component: MovieEditComponent, canActivate: [AuthenticationGuard]},
+  {path: 'movies/:ord/edit', component: MovieEditComponent, 
+                            canActivate: [AuthenticationGuard]},
   {path: 'about', component: AboutComponent}, 
   {path: 'account', component: AccountComponent}, 
   {path: '**', component: NotFoundComponent}

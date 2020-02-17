@@ -1,0 +1,13 @@
+ul {
+    border: 1px solid var(--p500);
+    border-radius: 10px;
+    margin: 20px;
+    background: var(--p100);
+    overflow: hidden;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+        
+}

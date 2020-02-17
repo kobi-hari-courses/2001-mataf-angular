@@ -27,6 +27,7 @@ export class AuthenticationGuard implements CanActivate {
 
     console.log('NO EDIT FOR YOU');
     let url = this.router.parseUrl('account');
+    this.auth.setNextUrl(state.url);
     return url;
   }
   
