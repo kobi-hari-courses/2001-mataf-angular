@@ -36,4 +36,9 @@ export class MovieDetailsComponent implements OnInit {
     this.router.navigate(['movies', ord - 1]);
   }
 
+  goEdit() {
+    let ord = Number(this.route.snapshot.params['ord']);
+    this.router.navigate(['movies', ord, 'edit']);
+  }
+
 }
