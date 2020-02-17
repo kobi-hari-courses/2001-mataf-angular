@@ -1,0 +1,10 @@
+<nav>
+    <button (click)="goPrev()">Prev</button>
+    <button (click)="goNext()">Next</button>
+</nav>
+
+<div *ngIf="(movie$ | async) as movie">
+    <h1>{{movie.caption}}</h1>
+    <p>{{movie.description}}</p>
+    <img [src]="movie.poster">
+</div>

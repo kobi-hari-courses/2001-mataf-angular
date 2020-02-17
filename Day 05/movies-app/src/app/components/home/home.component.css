@@ -1,0 +1,8 @@
+:host {
+    background: var(--p200);    
+}
+
+h1 {
+    color: var(--p900);
+    margin: 10px;
+}

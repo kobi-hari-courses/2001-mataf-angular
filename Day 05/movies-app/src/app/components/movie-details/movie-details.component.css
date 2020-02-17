@@ -1,0 +1,11 @@
+img {
+    height: 250px;
+}
+
+h1 {
+    color: var(--p400);    
+}
+
+p {
+    color: var(--p700);
+}

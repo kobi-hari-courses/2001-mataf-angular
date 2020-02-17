@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let caption of titles; let i = index"
+        (click)="selectMovieIndex(i)"
+    >{{caption}}</li>
+</ul>
