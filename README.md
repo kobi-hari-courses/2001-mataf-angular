@@ -10,6 +10,7 @@ and also - through `Whatsapp`
 * [Day 3 - Services, DI and Async Development](https://github.com/kobi2294/Mataf/wiki/Day-3---Services)
 * [Day 4 - Reactive X, Operators, and Http](https://github.com/kobi2294/Mataf/wiki/Day-4---Reactive-X-and-Http)
 * [Day 5 - Routing](https://github.com/kobi2294/Course-012020-Mataf-Angular/wiki/Day-5-Routing)
+* [Day 6 - Forms Pipes and Directives](https://github.com/kobi2294/Course-012020-Mataf-Angular/wiki/Day-6-Forms-Pipes-Directives)
 
 # Emphasize Videos
 These Videos repeat several chapters of the course, you can use them to reinforce you understanding of the topics
