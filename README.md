@@ -21,6 +21,7 @@ These Videos repeat several chapters of the course, you can use them to reinforc
 * [Exercise 2 - Movie Browser](https://github.com/kobi2294/Mataf/wiki/Exercise-2---Movies-Browser)
 * [Exercise 3 - Reactive Movie Browser](https://github.com/kobi2294/Mataf/wiki/Exercise-3---Movies-Browser---Reactive)
 * [Exercise 4 - Lyrics Browser using Routing](https://github.com/kobi2294/Course-012020-Mataf-Angular/wiki/Exercise-4-Routing)
+* [Project - Todos App](https://github.com/kobi2294/Course-012020-Mataf-Angular/wiki/Project-Todos)
 
 # Home Exercises
 * [Exercise 1 - Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
