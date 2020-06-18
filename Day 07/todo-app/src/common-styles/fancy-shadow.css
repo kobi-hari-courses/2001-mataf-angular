@@ -1,0 +1,25 @@
+.fancy-shadow {
+    border-radius: 4px;
+    position: relative;
+}
+
+.fancy-shadow:before, .fancy-shadow:after {
+    z-index: -1;
+    content:'';
+    width: 70px;
+    height: 10px;
+    background-color: #777777;
+    position: absolute;
+    bottom: 1px;
+    left: 10px;
+    transform: rotate(-5deg);
+    filter: blur(6px);
+}
+
+.fancy-shadow:after {
+    left: unset;
+    right: 10px;
+    transform: rotate(5deg);
+}
+
+

@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./common-styles/fancy-shadow.css";
+@import "./common-styles/buttons.css";
+@import "./common-styles/inputs.css";
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: grid;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --p50 : #e8eaf6;
+    --p100 : #c5cbe9;
+    --p200 : #9fa8da;
+    --p300 : #7985cb;
+    --p400 : #5c6bc0;
+    --p500 : #3f51b5;
+    --p600 : #394aae;
+    --p700 : #3140a5;
+    --p800 : #29379d;
+    --p900 : #1b278d;
+
+
+    --a100: #ffd7d7;
+    --a200: #ffa4a4;
+    --a400: #ff7171;
+    --a700: #ff5858;  
+}

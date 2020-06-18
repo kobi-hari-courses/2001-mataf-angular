@@ -1,0 +1,30 @@
+.example {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.a {
+    background-color: var(--p200);
+}
+
+.a .material-icons {
+    font-size: 90px;
+    color: white;
+    background: red;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.a .material-icons:hover {
+    transform: rotate(90deg);
+}
+
+
+.b {
+    background-color: var(--p500);
+}
+
+.c {
+    background-color: var(--p700);
+}

@@ -1,0 +1,35 @@
+button.primary, button.accent{
+    outline: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    min-width: 100px;
+    padding: 8px;
+}
+
+button.primary:disabled, button.accent:disabled{
+    cursor: unset;
+    opacity: 0.3;
+}
+
+button.primary {
+    border: 1px solid var(--p400);
+    background-color: var(--p100);
+    color: var(--p700);
+}
+
+button.primary:enabled:hover {
+    background-color: var(--p400);
+    color: var(--p100);
+}
+
+button.accent {
+    border: 1px solid var(--a400);
+    background-color: var(--a100);
+    color: var(--a700);
+}
+
+button.accent:enabled:hover {
+    background-color: var(--a400);
+    color: var(--a100);
+}
