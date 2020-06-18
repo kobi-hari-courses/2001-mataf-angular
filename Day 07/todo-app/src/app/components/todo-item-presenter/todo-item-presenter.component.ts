@@ -15,6 +15,7 @@ export class TodoItemPresenterComponent {
   @Output()
   completed = new EventEmitter<void>();
 
+
   complete() {
     if (!this.isCompleted) {
       this.completed.emit();

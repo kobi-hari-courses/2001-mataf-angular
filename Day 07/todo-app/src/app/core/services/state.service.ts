@@ -135,4 +135,6 @@ export class StateService {
     this.items = this.items.map(i => (i.id !== itemId) ? i : {...i, isCompleted: true});
     this.notifyItems();
   }
+
+  
 }
