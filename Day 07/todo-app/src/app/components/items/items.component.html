@@ -1,1 +1,14 @@
-<p>items works!</p>
+<header>Active Items</header>
+<ng-container *ngIf="(items$ | async) as items">
+    <div class="items">
+        <app-todo-item-presenter *ngFor="let item of items"
+            [caption]="item.caption"
+            [isCompleted]="item.isCompleted"
+            (completed)="complete(item.id)"
+            >
+        </app-todo-item-presenter>
+    </div>
+</ng-container>
+<ng-container *ngIf="!(items$ | async).length">
+    <h1>You do not have active items</h1>
+</ng-container>

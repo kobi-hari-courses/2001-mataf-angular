@@ -1,0 +1,44 @@
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+form {
+    justify-self: center;
+    align-self: flex-start;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: var(--p50);
+    border: 1px solid var(--p200);
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    margin: 8px 0px;
+    color: var(--p500);
+}
+
+label {
+    color: var(--p700);
+    font-size: 16px;
+}
+
+.ng-untouched + .errors {
+    display: none;
+}
+
+.errors div {
+    color: red;
+    font-size: 12px;
+}
+
+
+button {
+    align-self: flex-end;
+}
+
+

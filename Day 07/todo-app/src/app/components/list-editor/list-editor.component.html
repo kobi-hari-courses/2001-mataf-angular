@@ -1,1 +1,43 @@
-<p>list-editor works!</p>
+<header>Edit List Details</header>
+<form [formGroup]="form" class="fancy-shadow">
+    <div class="form-field">
+        <label>Caption:</label>
+        <input type="text" formControlName="caption">   
+        <div class="errors" *ngIf="form.get('caption').errors as errs">
+            <div *ngIf="errs['required']">Required</div>
+        </div>     
+    </div>
+    <div class="form-field">
+        <label>Description:</label>
+        <textarea formControlName="description"></textarea>
+        <div class="errors" *ngIf="form.get('description').errors as errs">
+            <div *ngIf="errs['counters'] as err">
+                Letters: {{err.chars}}/{{err.requiredChars}}
+                Words: {{err.words}}/{{err.requiredWords}}
+            </div>
+        </div>     
+
+    </div>
+    <div class="form-field">
+        <label>Icon:</label>
+        <select formControlName="icon" class="material-icons">
+            <option value=""></option>
+            <option *ngFor="let ic of icons" class="material-icons" [value]="ic">{{ic}}</option>
+        </select>  
+        <div class="errors" *ngIf="form.get('icon').errors as errs">
+            <div *ngIf="errs['required']">Required</div>
+        </div>     
+    </div>
+    <div class="form-field">
+        <label>Color:</label>
+        <select formControlName="color" [style.color]="form.get('color').value" >
+            <option value=""></option>
+            <option *ngFor="let cl of colors" [value]="cl" [style.color]="cl">{{cl}}</option>
+        </select>  
+        <div class="errors" *ngIf="form.get('color').errors as errs">
+            <div *ngIf="errs['required']">Required</div>
+        </div>     
+    </div>
+    <button class="primary" (click)="save()" [disabled]="form.invalid || form.pristine">Save</button>
+
+</form>

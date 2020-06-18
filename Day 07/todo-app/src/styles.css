@@ -19,6 +19,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header {
+    font-size: 22px;
+    color: var(--a400);
+    padding: 4px 10px;
+}
+
+
 :root {
     --p50 : #e8eaf6;
     --p100 : #c5cbe9;

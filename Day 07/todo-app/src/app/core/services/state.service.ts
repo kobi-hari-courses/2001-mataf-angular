@@ -119,19 +119,19 @@ export class StateService {
     return item.id;
   }
 
-  modifyList(list: TodoList) {
+  async modifyList(list: TodoList) {
     this.lists = this.lists.map(l => (l.id !== list.id) ? l : {...list});
     this.notifyLists();
   }
 
-  deleteList(listId: number) {
+  async deleteList(listId: number) {
     this.lists = this.lists.filter(l => l.id !== listId);
     this.items = this.items.filter(i => i.listId !== listId);
     this.notifyLists();
     this.notifyItems();
   }
 
-  markAsCompleted(itemId: number) {
+  async markAsCompleted(itemId: number) {
     this.items = this.items.map(i => (i.id !== itemId) ? i : {...i, isCompleted: true});
     this.notifyItems();
   }

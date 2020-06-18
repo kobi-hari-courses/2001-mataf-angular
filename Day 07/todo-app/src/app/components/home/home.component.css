@@ -1,0 +1,64 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+.meta {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background: var(--p900);
+    color: white;
+}
+
+.app-name {
+    font-size: 40px;
+}
+
+.developer {
+    font-size: 28px;
+}
+
+.date {
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;    
+}
+
+button {
+    margin: 10px;
+}
+
+
+.counters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.counter {
+    margin: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter .material-icons {
+    color: var(--p500);
+    font-size: 42px;
+}
+
+.counter .caption {
+    font-size: 18px;
+    color: var(--p300);
+}
+
+.counter .data {
+    font-size: 48px;
+}

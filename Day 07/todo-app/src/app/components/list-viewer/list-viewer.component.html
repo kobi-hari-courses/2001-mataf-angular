@@ -1,1 +1,40 @@
-<p>list-viewer works!</p>
+<ng-container *ngIf="(list$ | async) as list">
+    <header [style.color]="list.color">Lists > {{list.caption}}</header>
+    <div class="meta-data">
+        <span class="material-icons" [style.color]="list.color">{{list.icon}}</span>
+
+        <ng-container *ngIf="!isConfirmingDelete">
+            <p class="description">{{list.description}}</p>
+            <div class="buttons">
+                <button class="primary" (click)="createNewList()">New List...</button>
+                <button class="primary" (click)="editList()">Edit...</button>
+                <button class="accent" (click)="confirmDelete()">Delete...</button>
+            </div>            
+        </ng-container>
+
+        <ng-container *ngIf="isConfirmingDelete">
+            <p class="confirm-caption">
+                Are you sure you want to delete the entire list?
+            </p>
+            <div class="buttons">
+                <button class="primary" (click)="cancelDelete()">Cancel</button>
+                <button class="accent" (click)="deleteList()">Delete</button>
+            </div>
+        </ng-container>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="(items$ | async) as items">
+    <div class="items">
+        <app-todo-item-presenter *ngFor="let item of items"
+            [caption]="item.caption" [isCompleted]="item.isCompleted"
+            (completed)="markAsCompleted(item.id)"
+        ></app-todo-item-presenter>
+    </div>
+</ng-container>
+
+<div class="add-item">
+    <span class="material-icons">crop_square</span>
+    <input type="text" [formControl]="newLine">
+    <button class="primary" (click)="addItem()" [disabled]="newLine.invalid">+</button>
+</div>

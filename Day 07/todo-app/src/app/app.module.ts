@@ -9,6 +9,9 @@ import { ItemsComponent } from './components/items/items.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ListViewerComponent } from './components/list-viewer/list-viewer.component';
 import { ListEditorComponent } from './components/list-editor/list-editor.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { TodoItemPresenterComponent } from './components/todo-item-presenter/todo-item-presenter.component';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +21,13 @@ import { ListEditorComponent } from './components/list-editor/list-editor.compon
     ItemsComponent,
     NotFoundComponent,
     ListViewerComponent,
-    ListEditorComponent
+    ListEditorComponent,
+    TodoItemPresenterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,48 @@
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.list-card {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 200px;
+    height: 140px;
+    background: whitesmoke;
+    margin: 20px;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.list-card:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+.list-card.extra {
+    background-color: var(--p100);
+}
+
+.list-card.extra:hover {
+    background-color: var(--p200);
+}
+
+.material-icons {
+    align-self: center;
+    justify-self: center;
+    font-size: 60px;
+    opacity: 0.5;
+}
+
+.caption {
+    font-size: 40px;
+    align-self: center;
+    justify-self: center;
+}

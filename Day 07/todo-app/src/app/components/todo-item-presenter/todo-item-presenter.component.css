@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.root.active {
+    cursor: pointer;
+}
+
+.root.active:hover {
+    background: var(--p50);
+}
+
+.material-icons {
+    color: var(--p300);
+    margin: 4px;
+    font-size: 36px;
+}
+
+.caption {
+    opacity: 0.6;
+    text-decoration: line-through var(--a700);
+    font-size: 24px;
+}
+
+.active .caption {
+    opacity: 1;
+    text-decoration: none;
+}
+

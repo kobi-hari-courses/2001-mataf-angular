@@ -1,1 +1,15 @@
-<p>lists works!</p>
+<header>Lists</header>
+<div class="lists">
+    <div class="list-card fancy-shadow"
+        *ngFor="let list of (lists$ | async)"
+        (click)="navigateToList(list.id)"
+        >
+        <span class="material-icons" [style.color]="list.color">{{list.icon}}</span>
+        <span class="caption">{{list.caption}}</span>
+    </div>
+
+    <div class="list-card extra fancy-shadow" (click)="navigateToNew()">
+        <span class="material-icons">add</span>
+        <span class="caption">New...</span>
+    </div>
+</div>

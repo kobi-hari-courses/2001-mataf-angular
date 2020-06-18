@@ -1,0 +1,12 @@
+:host {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 60px;
+    opacity: 0.3;
+    align-self: center;
+    justify-self: center;
+}

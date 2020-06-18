@@ -1,0 +1,5 @@
+<div class="root" [class.active]="!isCompleted" (click)="complete()">
+    <span *ngIf="!isCompleted" class="material-icons">crop_square</span>
+    <span *ngIf="isCompleted" class="material-icons">check</span>
+    <span class="caption">{{caption}}</span>
+</div>

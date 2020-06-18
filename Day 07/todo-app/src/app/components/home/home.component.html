@@ -1,1 +1,29 @@
-<p>home works!</p>
+<div class="meta">
+    <div class="app-name">{{application}}</div>
+    <div class="developer">{{developer}}</div>
+    <div class="date">{{today | date:'dd/MM/yyyy'}}</div>
+    <div class="buttons">
+        <button class="accent" (click)="navigateToNew()">Create new List</button>
+        <button class="accent" (click)="navigateToLists()">View all Lists</button>
+        <button class="accent" (click)="navigateToItems()">View Uncompelted Items</button>
+    </div>
+</div>
+
+<div class="counters">
+    <div class="counter">
+        <span class="material-icons">list</span>
+        <span class="data">{{listsCount$ | async}}</span>
+        <span class="caption">Lists</span>
+    </div>
+    <div class="counter">
+        <span class="material-icons">done_all</span>
+        <span class="data">{{itemsCount$ | async}}</span>
+        <span class="caption">Items</span>
+    </div>
+    <div class="counter">
+        <span class="material-icons">hourglass_empty</span>
+        <span class="data">{{uncompletedCount$ | async}}</span>
+        <span class="caption">Active Items</span>
+    </div>
+
+</div>
